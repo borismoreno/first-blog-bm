@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'strapi'),
       user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', 'Postgres810'),
-      ssl: env.bool('DATABASE_SSL', true),
+      ssl: env.bool('DATABASE_SSL', false),
     },
     useNullAsDefault: true,
   },
