@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * guitarra controller
+ * about controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::guitarra.guitarra');
+module.exports = createCoreController('api::about.about');
